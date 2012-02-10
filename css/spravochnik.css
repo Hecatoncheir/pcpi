@@ -1,0 +1,19 @@
+.block {
+    float:          left;
+    margin-top:     -20px;
+}
+
+.block span {
+    float:          left;
+    display:        block;
+    width:          165px;
+    padding-top:    12px;
+    margin-right:   30px;
+    clear:          both;
+    margin-bottom:  15px;
+    font-style:     normal !important;
+}
+
+.block span:first-child {
+    padding-top:    5px;
+}

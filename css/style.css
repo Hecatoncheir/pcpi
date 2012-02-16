@@ -75,7 +75,16 @@ body {
     width:          342px;
     height:         79px;
     display:        block;
+    float:          left;
 }
+
+
+#container > header {
+    background: none !important;
+    min-height: 290px;
+    background: url(../images/header_all.jpg) no-repeat center 150px !important;
+}
+
 
 ::-webkit-input-placeholder {color:#8c8c8c;}
 :-moz-placeholder {color:#8c8c8c;}
@@ -86,7 +95,6 @@ body {
     width:          247px;
     margin-right:   65px;
     padding-top:    5px;
-    margin-top:     -5px;
     background:     url(../images/in_block_top_bg.png) repeat-x top;
 }
 
@@ -131,14 +139,14 @@ body {
     height:         16px;
 }
 
-a {
-    color:              #008277;
+#main nav a {
+    color:              #008073;
     text-decoration:    underline;
 }
 
-a:hover,
+#main nav a:hover,
 .active {
-    color:          #ff6700 !important;
+    color:          #a3826b !important;
 }
 
 .block input {
@@ -164,6 +172,17 @@ a:hover,
     margin-top: 15px;
 }
 
+.submit_mas {
+    background: #00a295 url(../images/submit_mas.jpg) no-repeat !important;
+    width:      148px !important;
+    height:     32px !important;
+    display:    blcok !important;
+    clear:      both;
+    float:      left;
+    margin-left:    195px;
+    margin-top: 15px;
+}
+
 .reset {
     background: none !important;
     width:      75px !important;
@@ -176,6 +195,140 @@ a:hover,
     margin-left:    45px;
     font-style:     italic;
     margin-top: 15px;
+}
+
+#main {
+    width:          940px;
+    margin:         0 auto;
+    font-style:     italic;
+}
+
+#main a {
+    color:              #008277;
+    text-decoration:    underline;
+}
+
+#main nav a:hover,
+.active {
+    background:     url(../images/a_active.png) no-repeat right;
+    padding-right:  25px;
+    color:          #ff6700 !important;
+}
+
+#container > header {
+    width:          991px;
+    margin:         0 auto;
+    overflow:       hidden;
+    padding:        32px 45px 37px 22px;
+    position:       relative;
+}
+
+#main nav:first-child {
+    float:          left;
+    width:          320px;
+    max-width:      320px;
+    display:        block;
+}
+
+nav a {
+    float:          left;
+    clear:          both;
+    font-size:      15px;
+    margin-bottom:  15px;
+}
+
+nav > nav {
+    width:          300px;
+    margin-left:    20px;
+}
+
+.block {
+    float:          left;
+    width:          300px;
+    margin-right:   10px;
+    margin-bottom:  30px;
+}
+
+footer {
+    clear:  both;
+    width:  991px;
+    margin: 0 auto;
+}
+
+footer .block {
+    float:      left !important;
+    width:      320px;
+    padding-top:    20px;
+}
+
+footer .block:first-child {
+    font-size:      12px;
+    line-height:    20px;
+    width:          280px;
+    padding-left:   10px;
+    margin-right:   60px;
+    padding-top:    8px;
+}
+
+footer a {
+    color:              #008277 !important;
+    text-decoration:    underline;
+}
+
+footer a:hover {
+    color:          #ff6700 !important;
+}
+
+.info {
+    margin-top: -20px;
+}
+
+
+.paginate {
+    clear:  both;
+    float:  left;
+    width:  600px;
+    margin-top: 40px;
+    margin-left:    80px;
+}
+
+.paginate a {
+    display:    block;
+    width:      22px;
+    height:     22px;
+    background: #f4f4f4;
+    color:      #666666 !important;
+    text-align: center;
+    padding:    4px;
+    clear:      none;
+    text-decoration:    none !important;
+    float:      left !important;
+    margin-right:   10px;
+}
+
+.paginate a:first-child {
+    background:     url(../images/blog/pa_left.jpg) no-repeat;
+    margin-right:   20px;
+}
+
+.paginate a:last-child {
+    background:     url(../images/blog/pa_right.jpg) no-repeat;
+    margin-left:   20px;
+}
+
+.paginate a:hover,
+.paginate .active {
+    background:     none !important;
+    color:          #fff !important;
+    background-color:   #00a295 !important;
+    padding-right:  4px !important;
+}
+
+nav a:hover {color:#fff !important;}
+
+.paginate a:first-child:hover,
+.paginate .active:first-child {
+    background:     url(../images/blog/pa_left.jpg) no-repeat;
 }
 
 

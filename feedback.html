@@ -15,8 +15,7 @@
 
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/sparkbox-select.css">
-  <link rel="stylesheet" href="css/spravochnik.css">
+  <link rel="stylesheet" href="css/feedback.css">
   <!-- end CSS-->
 
   <!-- <script src="js/libs/modernizr-2.0.6.min.js"></script> -->
@@ -40,13 +39,7 @@
     
     <div id="main" role="main">
         <nav>
-            <a href="#" class="active">Общественная сеть ПЦПИ</a>
-                <nav>
-                    <a href="#">Справочник по ПЦИП</a>
-                    <a href="#">ПЦПИ в документах</a>
-                    <a href="#">ПЦПИ с цифрах</a>
-                    <a href="#">ПЦПИ в лицах</a>
-                </nav>
+            <a href="#">Общественная сеть ПЦПИ</a>
             <a href="#">В помощь специалистам ПЦПИ</a>
             <a href="#">Право знать: ПЦПИ в помощь</a>
             <a href="#">Правовая поддержка библиотек</a>
@@ -54,45 +47,43 @@
             <a href="#">Блог</a>
             <a href="#">Некоммеческое партнерство</a>
             <a href="#">Ваше мнение</a>
-            <a href="#">Обратная связь</a>
+            <a href="#" class="active">Обратная связь</a>
         </nav>
         
         <div class="block">
-            <h1>Поиск ПЦПИ</h1>
-            <form>
-                <span>Тип библиотеки</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">Библиотека автономного округа</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <span>Название организации</span>
-                <input type="text">
-                <span>Город организации</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">Москва</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <span>Сортировка</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">Название организации</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <span>Направление сортировки</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">В хронологическом порядке</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <input class="submit" type="submit" value="">
-                <input class="reset" type="reset" value="Очистить">
-            </form>
+            <article class="info">
+            <h1>Обратная связь</h1>
+            <h2>Федеральное государственное бюджетное учреждение «Российская 
+                государственная библиотека» (ФГБУ «РГБ»)</h2>
+                <p>Генеральный директор: кандидат физико-математических наук Александр Иванович Вислый <br />
+                Наш адрес: 119019, Москва, ул. Воздвиженка, 3/5<br />
+                Телефон: 8-800-100-57-90<br />
+                Факс: +7 (495) 690-60-62, +7 (495) 913-69-33<br />
+                E-mail: nbros@rsl.ru<br />
+                </p>
+                <p>Справочная служба <br />
+                Тел.: 8-800-100-57-90 (звонок из России бесплатный)<br />
+                E-mail: post@rsl.ru</p>
+                
+                <p>Группа приема и записи читателей <br />
+                Адрес: г. Москва, ул. Воздвиженка, д. 3/5, 2-й подъезд<br />
+                Тел.: 8-800-100-57-90 (справочная служба)
+                Режим работы: понедельник-пятница &mdash; с 9:00 до 19:00, суббота &mdash; с 9:00 до 18:00 а также<br />
+                
+                <p>Адрес: г. Химки, Московская обл., ул. Библиотечная, д. 15 <br />
+                Тел.: +7 (495) 570-03-66<br />
+                Режим работы: понедельник &mdash; суббота: с 9:00 до 17:30</p>
+                
+                <p>Отдел кадров Российской государственной библиотеки <br />
+                Адрес: г. Москва, ул. Моховая, д. 14, стр. 1, этаж 2<br />
+                Оформление на работу: Иванова Татьяна Михайловна, тел.: + 7 (495) 697-30-01<br />
+                Начальник отдела кадров: Лебедева Лидия Николаевна, тел.: + 7 (495) 697-57-86<br />
+                E-mail: ok@rsl.ru</p>
+                
+                <p>Отдел общественных связей РГБ<br />
+                Тел.: +7 (495) 622-84-01<br />
+                E-mail: press@rsl.ru, pr@rsl.ru</p>
+            </article>            
         </div>
         
     </div>
@@ -113,12 +104,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.js"><\/script>')</script>
 
-    <script src="js/libs/jquery.sparkbox-select.js"></script>
 
   <!-- scripts concatenated and minified via ant build script-->
   <script defer src="js/plugins.js"></script>
   <script defer src="js/script.js"></script>
   <!-- end scripts-->
+
 
 
   <!--[if lt IE 7 ]>

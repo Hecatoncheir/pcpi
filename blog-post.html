@@ -1,0 +1,128 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link rel="stylesheet" href="css/blog-post.css">
+  <!-- end CSS-->
+
+  <!-- <script src="js/libs/modernizr-2.0.6.min.js"></script> -->
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+        <a href="#" class="logotip"></a>
+        <div class="in_block">
+            <a href="" class="reg_path">Регистрация</a>
+            <a href="" class="login_path">Войти</a>
+            <form> 
+                <input type="text" placeholder="Поиск..." >
+                <input type="submit" value="">
+            </form>
+        </div>
+        
+    </header>
+    
+    <div id="main" role="main">
+        <nav>
+            <a href="#">Общественная сеть ПЦПИ</a>
+            <a href="#">В помощь специалистам ПЦПИ</a>
+            <a href="#">Право знать: ПЦПИ в помощь</a>
+            <a href="#">Правовая поддержка библиотек</a>
+            <a href="#">События</a>
+            <a href="#"  class="active">Блог</a>
+            <a href="#">Некоммеческое партнерство</a>
+            <a href="#">Ваше мнение</a>
+            <a href="#">Обратная связь</a>
+        </nav>
+        
+        <div class="block">
+            <h1>Блог</h1>
+            
+            <article>
+                <div class="autor">
+                    <img src="images/blog/1.jpg">
+                    <p><a href="#">Осипова М. А.</a></p>
+                </div>
+                
+                <div class="content">
+                    <h1>Модель Функциональные требования к предметным авторитетным/ нормативным данным FRSAD</h1>
+                    <div class="pub_date">09.04.2009 09:42</div>
+                    <p>
+                       Здесь приводится краткое описание структуры модели для представления элементов данных, отображающих смысловое содержание документов: дескрипторов, классификационных индексов, предметных рубрик и т.д. Место FRSAD среди 3-х моделей представления библиографических данных было очерчено ранее.Итак, группа FRSAR ввела следующие объекты:
+                        тема, thema – объект (сущность), используемый в качестве предмета произведения; номен, nomen – знак или последовательность знаков (букв алфавитов, символов, звуков и т. д.), под которыми тема известна, с которыми связана или которыми ее называют.
+                        
+                        <p>На рисунке изображена принципиальная схема концептуальной модели FRSAD.
+                        Термины (наименования связей «has appellation» и  « is appellation» возле 2-й стрелки могут быть переведены на русский язык, по крайней мере, 3-мя способами: «имеет обозначение» – «является обозначением или обозначается» (вариант использован выше); «иметь имя» – «быть именем» (использовано в переводе модели FRAD и здесь уже не подходит); «иметь название» – «быть названием» (вариант кажется не слишком удачным). При переводе описания FRSAD на русский язык специалистам потребуется решить эту проблему.
+                        </p>
+                        <p>
+                        Указанные связи устанавливаются между несколькими объектами в обе стороны (двойные стрелки). Одно произведение может иметь более одной темы, и одна тема может быть предметом более одного произведения. Конкретное произведение, естественно, может иметь несколько тем. При этом существует много других произведений по каждой из этих тем. С другой стороны, для тем конкретного произведения, представленных на одном языке, существуют другие номены на других языках и в других контролируемых словарях.
+                        </p>
+                    </p>
+                    <hr />
+                    
+                    <div class="comments">
+                        <h2>Комментарии</h2>
+                        <div class="com">
+                            <a href="#">Осипова М. А.</a><span class="time">09.04.2009 09:42</span>
+                            <p>Как статьи народ тронули-то. Жду продолжения, теряясь в догадках,кто еще отпишется.</p>
+                        </div>
+                        <div class="com">
+                            <a href="#">Паниковский И. П.</a><span class="time">09.04.2009 09:42</span>
+                            <p>Согласно тексту документа планируется, что уже к 2015 году доля библиотечных фондов, переведенных в электронную ...</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </article>
+            
+        </div>
+        
+    </div>
+    
+    <footer>
+        <div class="block">
+            <p>Министерство культуры Российской Федерации, 
+            Российская государственная библиотека, <br />
+            НП МОПЦПИ</p>
+        </div>
+        <div class="block">
+            <a href="#">e-mail: mopcpi@rsl.ru</a>
+        </div>
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>

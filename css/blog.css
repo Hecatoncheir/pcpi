@@ -1,0 +1,40 @@
+.block {
+    margin-top: -20px;
+}
+
+article {
+    width:  600px;
+    clear:  both;
+    margin:0;
+    font-style: normal !important;
+    padding-top:    50px;
+}
+
+.autor {
+    float:          left;
+    width:          100px;
+    height:         auto;
+    margin-top:     15px;
+    text-align:     left;
+}
+
+.content {
+    display:    block;
+    float:      right;
+    width:      470px;
+    margin-left:    30px;
+}
+
+
+article h1 {
+    font-size:  13px;
+}
+
+.content_info a {
+    border-right:   2px solid gray;
+    padding-right:  10px;
+    margin-right:   5px;
+}
+
+article:first-child {padding-top:0 !important;}
+

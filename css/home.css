@@ -1,18 +1,8 @@
-#container {}
-
 #container > header {
-    background:     url(../images/home/header_bg.jpg) no-repeat 30px 0;
-    width:          991px;
+    background:     url(../images/home/header_bg.jpg) no-repeat 30px 0 !important;
     min-height:     547px;
-    margin:         0 auto;
-    overflow:       hidden;
-    padding:        32px 45px 37px 22px;
-    position:       relative;
 }
 
-.logotip {
-    float:  left;
-}
 
 #container > header > .info {
     background:         url(../images/home/header_info.png) no-repeat;
@@ -29,50 +19,6 @@
     line-height:        24px;
     right:              133px;
     bottom:             50px;
-}
-
-#main {
-    width:          940px;
-    margin:         0 auto;
-    font-style:     italic;
-}
-
-#main a {
-    color:              #008277;
-    text-decoration:    underline;
-}
-
-#main a:hover,
-.active {
-    background:     url(../images/a_active.png) no-repeat right;
-    padding-right:  25px;
-    color:          #ff6700 !important;
-}
-
-#main nav {
-    float:          left;
-    width:          320px;
-    max-width:      320px;
-    display:        block;
-}
-
-nav a {
-    float:          left;
-    clear:          both;
-    font-size:      15px;
-    margin-bottom:  15px;
-}
-
-nav > nav {
-    width:          300px;
-    margin-left:    20px;
-}
-
-.block {
-    float:          left;
-    width:          300px;
-    margin-right:   10px;
-    margin-bottom:  30px;
 }
 
 .block .info {
@@ -122,36 +68,6 @@ nav > nav {
     float:      none;
     width:      280px;
     display:    block;
-}
-
-footer {
-    clear:  both;
-    width:  991px;
-    margin: 0 auto;
-}
-
-footer .block {
-    float:      left !important;
-    width:      320px;
-    padding-top:    20px;
-}
-
-footer .block:first-child {
-    font-size:      12px;
-    line-height:    20px;
-    width:          280px;
-    padding-left:   10px;
-    margin-right:   60px;
-    padding-top:    8px;
-}
-
-footer a {
-    color:              #008277 !important;
-    text-decoration:    underline;
-}
-
-footer a:hover {
-    color:          #ff6700 !important;
 }
 
 .archive {float:right;}

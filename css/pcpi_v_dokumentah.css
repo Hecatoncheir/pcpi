@@ -1,0 +1,20 @@
+.block .info {
+    line-height:    20px;
+    padding-right:  47px;
+    padding-top:    0px;
+    width:          600px;
+    font-size:      13px;
+    font-style:     normal;
+}
+
+.info {margin-top: -20px;}
+
+.info .nav_docs a {
+    width:          600px !important;
+    padding-left:   20px;
+    background:     url(../images/a_docs.jpg) no-repeat 0px 5px;
+}
+
+.info .nav_docs a:hover {
+    background:     url(../images/a_docs.jpg) no-repeat  0px 5px !important;
+}

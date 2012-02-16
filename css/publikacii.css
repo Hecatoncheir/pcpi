@@ -1,0 +1,26 @@
+article {
+    float:          left;
+    font-style:     normal;
+    display:        block;
+    width:          280px;
+    margin:         0 15px 30px 0;
+}
+
+article p {
+    font-weight:    bold;
+}
+
+article img {
+    float:          left;
+    margin-right:   15px;
+    width:          100px;
+    height:         auto;
+}
+
+.pub_list {
+    width:  600px !important;
+}
+
+article:nth-child(even) {
+    margin-right:   0 !important;
+}

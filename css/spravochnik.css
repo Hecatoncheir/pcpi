@@ -17,3 +17,17 @@
 .block span:first-child {
     padding-top:    5px;
 }
+
+.block {
+    width:  610px;
+}
+
+.block .info h1 {
+    font-style:     italic;
+}
+
+.block articler p {
+    font-size:      13px;
+    line-height:    20px;
+    font-family:    'Arial';
+}

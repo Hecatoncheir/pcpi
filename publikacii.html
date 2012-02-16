@@ -15,8 +15,7 @@
 
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/sparkbox-select.css">
-  <link rel="stylesheet" href="css/spravochnik.css">
+  <link rel="stylesheet" href="css/publikacii.css">
   <!-- end CSS-->
 
   <!-- <script src="js/libs/modernizr-2.0.6.min.js"></script> -->
@@ -40,14 +39,17 @@
     
     <div id="main" role="main">
         <nav>
-            <a href="#" class="active">Общественная сеть ПЦПИ</a>
-                <nav>
-                    <a href="#">Справочник по ПЦИП</a>
-                    <a href="#">ПЦПИ в документах</a>
-                    <a href="#">ПЦПИ с цифрах</a>
-                    <a href="#">ПЦПИ в лицах</a>
-                </nav>
+            <a href="#">Общественная сеть ПЦПИ</a>
             <a href="#">В помощь специалистам ПЦПИ</a>
+                <nav>
+                    <a href="#">Официальная периодика</a>
+                    <a href="#">Издания по праву</a>
+                    <a href="#">Правовые интернет-ресурсы</a>
+                    <a href="#" class="active">Полезные ссылки</a>
+                    <a href="#">Справочная информация</a>
+                    <a href="#">Публикации о ПЦПИ</a>
+                    <a href="#">Партнеры ПЦПИ</a>
+                </nav>
             <a href="#">Право знать: ПЦПИ в помощь</a>
             <a href="#">Правовая поддержка библиотек</a>
             <a href="#">События</a>
@@ -57,42 +59,33 @@
             <a href="#">Обратная связь</a>
         </nav>
         
-        <div class="block">
-            <h1>Поиск ПЦПИ</h1>
-            <form>
-                <span>Тип библиотеки</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">Библиотека автономного округа</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <span>Название организации</span>
-                <input type="text">
-                <span>Город организации</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">Москва</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <span>Сортировка</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">Название организации</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <span>Направление сортировки</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">В хронологическом порядке</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <input class="submit" type="submit" value="">
-                <input class="reset" type="reset" value="Очистить">
-            </form>
+        <div class="block pub_list">
+            <h1>Полезные ссылки</h1>
+            <article>
+                <img src="images/publikacii/vedom.jpg">
+                <a href="#">Деятельность ПЦПИ в библиотеках Алтайского края: итоги исследования</a>
+                <p>П. В. Леонтьева, <br /> А. А. Александровский</p>
+            </article>
+            <article>
+                <img src="images/publikacii/rosg.jpg">
+                <a href="#">"Заповедная территория"-информационный вестникПроекта ПРООН/ГЭФ</a>
+                <p>М. Бочаров</p>
+            </article>
+            <article>
+                <img src="images/publikacii/com.jpg">
+                <a href="#">Деятельность ПЦПИ в библиотеках Алтайского края: итоги исследования</a>
+                <p>П. В. Леонтьева, <br /> А. А. Александровский</p>
+            </article>
+            <article>
+                <img src="images/publikacii/vedom.jpg">
+                <a href="#">Деятельность ПЦПИ в библиотеках Алтайского края: итоги исследования</a>
+                <p>П. В. Леонтьева, <br /> А. А. Александровский</p>
+            </article>
+            <article>
+                <img src="images/publikacii/rosg.jpg">
+                <a href="#">Деятельность ПЦПИ в библиотеках Алтайского края: итоги исследования</a>
+                <p>П. В. Леонтьева, <br /> А. А. Александровский</p>
+            </article>
         </div>
         
     </div>
@@ -113,12 +106,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.js"><\/script>')</script>
 
-    <script src="js/libs/jquery.sparkbox-select.js"></script>
 
   <!-- scripts concatenated and minified via ant build script-->
   <script defer src="js/plugins.js"></script>
   <script defer src="js/script.js"></script>
   <!-- end scripts-->
+
 
 
   <!--[if lt IE 7 ]>

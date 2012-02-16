@@ -16,7 +16,7 @@
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/sparkbox-select.css">
-  <link rel="stylesheet" href="css/spravochnik.css">
+  <link rel="stylesheet" href="css/blog-arhive.css">
   <!-- end CSS-->
 
   <!-- <script src="js/libs/modernizr-2.0.6.min.js"></script> -->
@@ -40,58 +40,68 @@
     
     <div id="main" role="main">
         <nav>
-            <a href="#" class="active">Общественная сеть ПЦПИ</a>
-                <nav>
-                    <a href="#">Справочник по ПЦИП</a>
-                    <a href="#">ПЦПИ в документах</a>
-                    <a href="#">ПЦПИ с цифрах</a>
-                    <a href="#">ПЦПИ в лицах</a>
-                </nav>
+            <a href="#">Общественная сеть ПЦПИ</a>
             <a href="#">В помощь специалистам ПЦПИ</a>
             <a href="#">Право знать: ПЦПИ в помощь</a>
             <a href="#">Правовая поддержка библиотек</a>
             <a href="#">События</a>
             <a href="#">Блог</a>
+                <nav>
+                    <a href="#" class="active">Архив</a>
+                </nav>
             <a href="#">Некоммеческое партнерство</a>
             <a href="#">Ваше мнение</a>
             <a href="#">Обратная связь</a>
         </nav>
         
         <div class="block">
-            <h1>Поиск ПЦПИ</h1>
+            <h1>Архив</h1>
             <form>
-                <span>Тип библиотеки</span>
+                <span>Временной интервал</span> С
+                <select class="sparkbox-custom cif">
+                    <option value="got_pub">1</option>
+                </select>
                 <select class="sparkbox-custom">
-                    <option value="got_pub">Библиотека автономного округа</option>
+                    <option value="got_pub">Сентябрь</option>
                     <option value="avtors"></option>
                     <option value="name"></option>
                     <option value="date_add"></option>
                 </select>
-                <span>Название организации</span>
+                <select class="sparkbox-custom">
+                    <option value="got_pub">2000</option>
+                    <option value="avtors"></option>
+                </select>
+                <br />
+                <span style="margin-right: 149px"></span>
+                По
+                <select class="sparkbox-custom cif">
+                    <option value="got_pub">1</option>
+                </select>
+                <select class="sparkbox-custom">
+                    <option value="got_pub">Сентябрь</option>
+                    <option value="avtors"></option>
+                    <option value="name"></option>
+                    <option value="date_add"></option>
+                </select>
+                <select class="sparkbox-custom">
+                    <option value="got_pub">2000</option>
+                    <option value="avtors"></option>
+                </select>
+                <br />
+                
+                <span style="margin-right:  112px;">Фамилия</span>
+                <select class="sparkbox-custom">
+                    <option value="got_pub"></option>
+                    <option value="avtors"></option>
+                    <option value="name"></option>
+                    <option value="date_add"></option>
+                </select>
+                <br />
+                <span style="margin-right:  139px;">Теги</span>
                 <input type="text">
-                <span>Город организации</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">Москва</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <span>Сортировка</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">Название организации</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
-                <span>Направление сортировки</span>
-                <select class="sparkbox-custom">
-                    <option value="got_pub">В хронологическом порядке</option>
-                    <option value="avtors"></option>
-                    <option value="name"></option>
-                    <option value="date_add"></option>
-                </select>
+                
                 <input class="submit" type="submit" value="">
-                <input class="reset" type="reset" value="Очистить">
+                
             </form>
         </div>
         

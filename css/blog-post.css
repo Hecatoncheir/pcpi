@@ -1,0 +1,24 @@
+.block {
+    width:  600px;
+}
+
+.content h1 {
+    font-size:  17px;
+}
+
+article {
+    padding-top:    0px;
+    line-height:    20px;
+}
+
+.com {
+    padding:    10px;
+}
+
+.com:nth-child(odd) {
+    background-color: #f4f4f4 !important;
+}
+
+.comments {
+    margin-bottom:  110px;
+}

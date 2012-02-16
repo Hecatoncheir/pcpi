@@ -1,0 +1,54 @@
+.name_index,
+.name_index nav {
+    max-width:      609px !important;
+    width:      609px !important;
+}
+
+.name_index nav a {
+    float:              left !important;
+    display:            block;
+    width:              19px;
+    height:             19px;
+    padding:            0;
+    margin:             0;
+    margin-bottom:      20px;
+    clear:              none;
+    text-align:         center;
+    margin-right:       2px;
+    font-style:         normal;
+    text-decoration:    none !important;
+}
+
+.name_index nav a:hover,
+.name_index nav .active {
+    background:     url(../images/v_licah/name_index.png) no-repeat !important;
+    padding-right:  0 !important;
+    color:          #fff !important;
+}
+
+.not_have {
+    color:  #999999 !important;
+}
+
+#main .name_index nav a:hover {color: #fff !important;}
+
+.name_index > a {
+    display:        block;
+    width:          280px;
+    max-width:      280px !important;
+    height:         40px;
+    margin-right:   10px;
+    float:          left;
+    padding:        10px 0 10px 10px;
+    font-style:     normal;
+}
+
+.name_index > a:hover {color:   #008277 !important;}
+
+.name_index > a:nth-child(even) {
+    margin-right:   0 !important;
+}
+
+.name_index > a:nth-child(3n-9) {
+    background:     #f4f4f4;
+}

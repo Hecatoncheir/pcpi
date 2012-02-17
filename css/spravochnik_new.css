@@ -1,0 +1,27 @@
+.tabs {
+    border-bottom:  1px solid #999999;
+}
+
+.tabs li {
+    float:              left;
+    margin-right:       15px;
+    text-decoration:    underline;
+    list-style:         none;
+    cursor:             pointer;
+    padding:            0px 15px;
+    font-size:          10px;
+    font-style:         italic;
+    color:              #008277;
+}
+
+.tabs .current {
+    border:         1px solid #999999;
+    border-bottom:  none;
+    color:          black;
+}
+
+article {
+    clear:both;
+    font-style: normal
+    margin-bottom:  50px;
+}

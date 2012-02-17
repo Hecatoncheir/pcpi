@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/sparkbox-select.css">
   <link rel="stylesheet" href="css/spravochnik.css">
+  <link rel="stylesheet" href="css/spravochnik_new.css">
   <!-- end CSS-->
 
   <!-- <script src="js/libs/modernizr-2.0.6.min.js"></script> -->
@@ -58,8 +59,53 @@
         </nav>
         
         <div class="block">
-            <h1>Поиск ПЦПИ</h1>
-            <form>
+        
+            <ul class="tabs">
+                <li><h1>Справочник по ПЦПИ</h1></li>
+                <li class="current"><h1>Поиск ПЦПИ</h1></li>
+                <div class="c"></div>
+            </ul>
+            
+                <div style="display: none;" class="box">
+                    <h2 style="float:left;">Количество анкет: 1424</h2>
+                    <div style="float:right; margin-top: 10px;">
+                    <select class="sparkbox-custom" >
+                        <option value="got_pub">Выберете тип библиотеки</option>
+                        <option value="avtors"></option>
+                        <option value="name"></option>
+                        <option value="date_add"></option>
+                    </select>
+                    </div>
+                    
+                    <article>
+                        <a href="#">Абашевская сельская модельная библиотека Чебоксарского района</a>
+                        <p>Населенный пункт: <a href="#">с. Абашево, Чебоксарский район</a> (Республика Чувашия) (Приволжский округ)</p>
+                    </article>
+                    <br />
+                    <article>
+                        <a href="#">Абашевская сельская модельная библиотека Чебоксарского района</a>
+                        <p>Населенный пункт: <a href="#">с. Абашево, Чебоксарский район</a> (Республика Чувашия) (Приволжский округ)</p>
+                    </article>
+                    <br />
+                    <article>
+                        <a href="#">Абашевская сельская модельная библиотека Чебоксарского района</a>
+                        <p>Населенный пункт: <a href="#">с. Абашево, Чебоксарский район</a> (Республика Чувашия) (Приволжский округ)</p>
+                    </article>
+                
+                                <nav class="paginate">
+                <a href="#"></a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">...</a>
+                <a href="#">10</a>
+                <a href="#"></a>
+            </nav>
+                
+                </div>
+            
+               <div class="box visible">
+               <form>
                 <span>Тип библиотеки</span>
                 <select class="sparkbox-custom">
                     <option value="got_pub">Библиотека автономного округа</option>
@@ -92,7 +138,9 @@
                 </select>
                 <input class="submit" type="submit" value="">
                 <input class="reset" type="reset" value="Очистить">
-            </form>
+            </form>               
+               </div>
+            
         </div>
         
     </div>

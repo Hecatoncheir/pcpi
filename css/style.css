@@ -331,6 +331,8 @@ nav a:hover {color:#fff !important;}
     background:     url(../images/blog/pa_left.jpg) no-repeat;
 }
 
+.c {clear:both;}
+
 
 /* ==|== non-semantic helper classes ======================================== */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }

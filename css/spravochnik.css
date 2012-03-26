@@ -3,7 +3,7 @@
     margin-top:     -20px;
 }
 
-.block span {
+.block form span {
     float:          left;
     display:        block;
     width:          165px;
@@ -14,7 +14,7 @@
     font-style:     normal !important;
 }
 
-.block span:first-child {
+.block form span:first-child {
     padding-top:    5px;
 }
 
@@ -31,3 +31,60 @@
     line-height:    20px;
     font-family:    'Arial';
 }
+
+.search_what,
+.open_what {
+    float: right;
+    text-align: right;
+}
+
+
+ol a {text-decoration: none !important;}
+
+.search_what h2,
+.open_what h2 {font-size: 14px; font-weight: bold;}
+
+.open_what h2 { float: right;}
+
+.open_what h2 span {padding:0; margin:0; color: #007e74;}
+
+.open_what p { float:right; clear: both; margin-top: -15px;}
+
+ol,ul {clear: both;}
+
+ol li {
+    list-style-type: none;
+    counter-increment: list;
+    position: relative;
+}
+
+ol li:after {
+    content: counter(list) ".";
+    position: absolute;
+    left: -2.5em;
+    top: 0;
+    width: 2em;
+    text-align: right;
+    color: #7c7c7c;
+}
+
+ol li {
+    margin-bottom: 20px; 
+    cursor: pointer;
+    font-size: 14px;
+    color: #007e74;
+    width: 585px;
+}
+
+ul {margin-left: -40px; padding-top: 10px; margin-bottom: 40px;}
+
+ul li {margin-bottom:5px; list-style-type: none; color: #7c7c7c; font-size: 14px;}
+ul li span,
+.block h3 {color: #007e74;  font-weight: bold; padding-right: 5px;}
+
+ul li:nth-child(3),
+ul li:nth-child(6),
+ul li:nth-child(9) {margin-top:20px;}
+
+.block h3 {border-bottom: 1px solid gray; width: 100%; font-size: 14px; text-transform: uppercase;}
+

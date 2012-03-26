@@ -18,3 +18,21 @@
 .info .nav_docs a:hover {
     background:     url(../images/a_docs.jpg) no-repeat  0px 5px !important;
 }
+
+.info h2 {color: #007e74; font-size: 18px;}
+
+.info .print {
+    background: url(../images/print.png) no-repeat left center;
+    padding-left: 25px;
+    text-decoration: none !important;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.info .download {
+    background: url(../images/download.png) no-repeat left center;
+    padding-left: 35px;
+    text-decoration: none !important;
+    margin-right: 20px;
+    font-weight: bold;
+}

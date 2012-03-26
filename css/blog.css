@@ -38,3 +38,15 @@ article h1 {
 
 article:first-child {padding-top:0 !important;}
 
+.gallery {
+    float: left;
+    widht:180px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    float: left;
+    clear:left;
+    margin-bottom: 20px;
+}

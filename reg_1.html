@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/reg.css">
+  <link rel="stylesheet" href="css/sparkbox-select.css">
+  <!-- end CSS-->
+
+  <!-- <script src="js/libs/modernizr-2.0.6.min.js"></script> -->
+</head>
+
+<body>
+
+  <div id="container">
+  
+  <div class="logotip"></div>
+  <div id="main">
+    <div id="reg_info">
+        <nav>
+            <a href="#" class="active">Новый пользователь</a>
+            <a href="#">Новый правовой центр</a>
+        </nav>
+        <h1>Регистрация <span>частного лица</span></h1>
+        <div id="field_leg"></div>
+        <form>
+            <div>
+                <input class="important" value="Имя" type="text">
+                <input value="Фамилия" type="text">
+                <input value="Отчество" type="text">
+                <input class="important" value="Электронный адрес" type="text">
+                <input value="Должность" type="text">
+                    <select class="sparkbox-custom">
+                        <option value="got_pub">Частное лицо</option>
+                        <option value="avtors">От правового центра</option>
+                    </select>
+            </div>
+            <div>
+                <img src="images/no-image.jpg"><input type="buttom" value="Фото">
+            </div>
+            <input type="submit" value="Регистрация">
+        </form>
+    </div>
+  </div>
+    
+    <footer>
+        <div class="block">
+            <p>Министерство культуры Российской Федерации, 
+            Российская государственная библиотека, <br />
+            НП МОПЦПИ</p>
+        </div>
+        <div class="block">
+            <a href="#">e-mail: mopcpi@rsl.ru</a>
+        </div>
+    </footer>
+    
+  </div> <!--! end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.js"><\/script>')</script>
+
+  <script src="js/libs/jquery.sparkbox-select.js"></script>
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
